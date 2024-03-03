@@ -24,14 +24,7 @@ function ExcerciseCard({displayData,setDeleteExcerciseResponse}) {
       <Card.Footer className="text-muted">{displayData?.date}</Card.Footer>
     </Card>
 
-        {/* <Card style={{ width: '18rem' }}>
-      <ListGroup variant="flush">
-        <ListGroup.Item>{displayData?.exercises}</ListGroup.Item>
-        <ListGroup.Item>{displayData?.duration}</ListGroup.Item>
-        <ListGroup.Item>{displayData?.date}</ListGroup.Item>
-        <button className='btn btn-danger'>Delete</button>
-      </ListGroup>
-    </Card> */}
+       
     </div>
   )
 }
